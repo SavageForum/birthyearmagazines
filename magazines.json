@@ -1,0 +1,29 @@
+[
+    {
+        "title": "FHM",
+        "year": 1992,
+        "month": "July",
+        "condition": "Very Good",
+        "price": 14.99,
+        "image": "images/fhm-july-1992.jpg",
+        "link": "https://www.ebay.co.uk/"
+    },
+    {
+        "title": "Empire",
+        "year": 1992,
+        "month": "February",
+        "condition": "Good",
+        "price": 12.99,
+        "image": "images/empire-feb-1992.jpg",
+        "link": "https://www.ebay.co.uk/"
+    },
+    {
+        "title": "Loaded",
+        "year": 1995,
+        "month": "October",
+        "condition": "Very Good",
+        "price": 15.99,
+        "image": "images/loaded-oct-1995.jpg",
+        "link": "https://www.ebay.co.uk/"
+    }
+]
