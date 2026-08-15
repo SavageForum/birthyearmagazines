@@ -22,8 +22,6 @@
             packed with the adverts, fashions, celebrities and stories
             of the time.
         </p>
-
-        #yearsBrowse Years</a>
     </div>
 </header>
 
@@ -37,42 +35,24 @@
     </p>
 </section>
 
-<section id="years">
-    <h2>Browse by Year</h2>
+<section id="search">
+    <h2>Find a Magazine</h2>
 
-    <div class="year-grid">
+    <input
+        type="number"
+        id="yearFilter"
+        placeholder="Enter a year, e.g. 1992"
+        min="1900"
+        max="2030"
+    >
 
-        <a href="1990.html" class="year-card">
-            <h3>1990</h3>
-            <p>View available magazines</p>
-        </a>
+    <button id="clearFilter">Show All</button>
 
-        1991.html class="year-card">
-            <h3>1991</h3>
-            <p>View available magazines</p>
-        </a>
+    <p id="resultsCount"></p>
+</section>
 
-        1992.html
-            <h3>1992</h3>
-            <p>View available magazines</p>
-        </a>
-
-        3.html" class="year-card">
-            <h3>1993</h3>
-            <p>View available magazines</p>
-        </a>
-
-        <a href="1994.html" class="year-card">
-            <h3>1994</h3>
-            <p>View available magazines</p>
-        </a>
-
-        " class="year-card">
-            <h3>1995</h3>
-            <p>View available magazines</p>
-        </a>
-
-    </div>
+<section>
+    <div id="magazine-list"></div>
 </section>
 
 <section class="benefits">
@@ -101,6 +81,8 @@
 <footer>
     <p>© 2026 Birth Year Magazines</p>
 </footer>
+
+app.js
 
 </body>
 </html>
