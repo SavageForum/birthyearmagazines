@@ -81,3 +81,49 @@ document
         displayMagazines(magazines);
 
     });
+
+#search {
+    text-align: center;
+}
+
+#yearFilter {
+    padding: 12px;
+    width: 250px;
+    max-width: 100%;
+    margin-right: 10px;
+}
+
+#clearFilter {
+    padding: 12px 18px;
+    cursor: pointer;
+}
+
+#magazine-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.mag-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.mag-image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.buy-button {
+    display: inline-block;
+    margin-top: 10px;
+    background: #b8860b;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 6px;
+}
