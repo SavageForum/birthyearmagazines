@@ -26,30 +26,29 @@ function displayMagazines(items) {
 
     items.forEach(magazine => {
 
-    container.innerHTML += 
-        <div class="mag-card">
+    container.innerHTML += `
+    <div class="mag-card">
 
-            .image}"
-                alt="${magazine.title}"
-                class="mag-image"
-            >
+        ${magazine.image}            alt="${magazine.title}"
+            class="mag-image"
+        >
 
-            <h3>${magazine.title}</h3>
+        <h3>${magazine.title}</h3>
 
-            <p>
-                ${magazine.month} ${magazine.year}
-            </p>
+        <p>
+            ${magazine.month} ${magazine.year}
+        </p>
 
-            <p>
-                Condition: ${magazine.condition}
-            </p>
+        <p>
+            Condition: ${magazine.condition}
+        </p>
 
-            <p>
-                £${magazine.price.toFixed(2)}
-            </p>
+        <p>
+            £${magazine.price.toFixed(2)}
+        </p>
 
-        </div>
-    ;
+    </div>
+`;
     });
 
 }
