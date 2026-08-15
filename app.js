@@ -29,7 +29,9 @@ function displayMagazines(items) {
     container.innerHTML += `
     <div class="mag-card">
 
-        ${magazine.image}
+        <img src="${magazine.image}"
+         alt="${magazine.title}"
+         class="mag-image">
 
         <h3>${magazine.title}</h3>
 
