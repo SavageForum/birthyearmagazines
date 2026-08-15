@@ -1,3 +1,5 @@
+console.log("JavaScript loaded");
+
 let magazines = [];
 
 fetch("magazines.json")
