@@ -29,23 +29,15 @@ function displayMagazines(items) {
     container.innerHTML += `
     <div class="mag-card">
 
-        ${magazine.image}            alt="${magazine.title}"
-            class="mag-image"
-        >
+        ${magazine.image}
 
         <h3>${magazine.title}</h3>
 
-        <p>
-            ${magazine.month} ${magazine.year}
-        </p>
+        <p>${magazine.month} ${magazine.year}</p>
 
-        <p>
-            Condition: ${magazine.condition}
-        </p>
+        <p>Condition: ${magazine.condition}</p>
 
-        <p>
-            £${magazine.price.toFixed(2)}
-        </p>
+        <p>£${magazine.price.toFixed(2)}</p>
 
     </div>
 `;
