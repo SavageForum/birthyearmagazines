@@ -5,8 +5,14 @@ let magazines = [];
 fetch("magazines.json")
     .then(response => response.json())
     .then(data => {
+        console.log("JSON loaded:");
+        console.log(data);
+
         magazines = data;
         displayMagazines(magazines);
+    })
+    .catch(error => {
+        console.error("JSON error:", error);
     });
 
 function displayMagazines(items) {
