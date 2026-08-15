@@ -28,13 +28,14 @@ function displayMagazines(items) {
 
     container.innerHTML += `
     <div class="mag-card">
-
-        <img src="${magazine.image}"
-         alt="${magazine.title}"
-         class="mag-image">
-
-        <h3>${magazine.title}</h3>
-
+        <a href="${magazine.link}" target="_blank">
+            <img src="${magazine.image}"
+             alt="${magazine.title}"
+             class="mag-image">
+        </a>
+        <a href="${magazine.link}" target="_blank">
+            <h3>${magazine.title}</h3>
+        </a>
         <p>${magazine.month} ${magazine.year}</p>
 
         <p>Condition: ${magazine.condition}</p>
